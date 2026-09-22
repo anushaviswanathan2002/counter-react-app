@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.counter-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  text-align: center;
+  min-width: 300px;
+}
+
+.counter-card h1 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.counter-display {
+  font-size: 72px;
+  font-weight: bold;
+  color: #667eea;
+  margin: 30px 0;
+  transition: transform 0.2s ease;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 80px;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn-plus {
+  background: #667eea;
+  color: white;
+  flex: 1;
+}
+
+.btn-plus:hover {
+  background: #5568d3;
+}
+
+.btn-minus {
+  background: #764ba2;
+  color: white;
+  flex: 1;
+}
+
+.btn-minus:hover {
+  background: #64398f;
+}
+
+.btn-reset {
+  background: #f093fb;
+  color: white;
+  flex: 1;
+}
+
+.btn-reset:hover {
+  background: #e07be0;
+}
