@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Stopwatch from './components/Stopwatch'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
           </button>
         </div>
       </div>
+      <Stopwatch />
     </div>
   )
 }
